@@ -60,30 +60,30 @@ label {
   left: -60px;
 }
 input:focus {
-  border-color: blue;
+  border-color: #1aa260;
 }
 .mail:focus ~ .mai,
 .mail:valid ~ .mai {
   font-size: 14px;
-  color: blue;
+  color: #1aa260;
   top: -62px;
 }
 .una:focus ~ .un,
 .una:valid ~ .un {
   font-size: 14px;
-  color: blue;
+  color: #1aa260;
   top: -60px;
 }
 .pwds:focus ~ .pwd,
 .pwds:valid ~ .pwd {
   font-size: 14px;
-  color: blue;
+  color: #1aa260;
   top: -55px;
 }
 .cpwds:focus ~ .cpwd,
 .cpwds:valid ~ .cpwd {
   font-size: 14px;
-  color: blue;
+  color: #1aa260;
   top: -55px;
 }
 button {
@@ -91,7 +91,7 @@ button {
   margin-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  background-color: rgb(26, 115, 232);
+  background-color: #1aa260;
   border: none;
   border-radius: 5px;
   color: aliceblue;
@@ -103,7 +103,7 @@ button {
   top: -20px;
 }
 button:hover {
-  background-color: rgba(27, 123, 219, 0.877);
+  background-color: #1aa260;
 }
 img {
   height: 50%;
@@ -117,7 +117,7 @@ position: relative;
 top:360px;
 }
 a{
-  color:blue;
+  color:#1aa260;
   text-decoration: none;
 }
 @media screen and (max-width: 700px) {

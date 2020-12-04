@@ -5,6 +5,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  font-family: sans-serif;
+}
 
 form {
   margin: 60px;
@@ -50,26 +53,26 @@ input {
   padding-bottom: 7px;
 }
 input:focus {
-  border-color: blue;
+  border-color: #1aa260;
 }
 .una:focus ~ .un,
 .una:valid ~ .un {
   font-size: 14px;
   top: -24px;
-  color: blue;
+  color: #1aa260;
 }
 .pwds:focus ~ .pwd,
 .pwds:valid ~ .pwd {
   font-size: 14px;
   top: 66px;
-  color: blue;
+  color: #1aa260;
 }
 .logbtn {
   padding: 10px;
   margin-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
-  background-color: rgb(26, 115, 232);
+  background-color: #1aa260;
   border: none;
   border-radius: 5px;
   color: aliceblue;
@@ -78,7 +81,7 @@ input:focus {
   outline: none;
 }
 .logbtn:hover {
-  background-color: rgba(27, 123, 219, 0.877);
+  background-color:#1aa260;
 }
 .logimg {
   height: 50%;

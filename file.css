@@ -1461,6 +1461,16 @@ section {
   height: 250px;
   border-radius: 20px;
   color: #2f2e41;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+  transition-property: -webkit-box-shadow, -webkit-transform;
+  transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 @media screen and (max-width: 768px) {
