@@ -1411,11 +1411,45 @@ section {
 }
 
 .Projects {
-  background-color: indigo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.Projects h1 {
-  color: white;
+.Projects a {
+  text-decoration: none;
+  text-align: center;
+  color: #2f2e41;
+  font-size: 15px;
+}
+
+.con {
+  width: 300px;
+  height: 280px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 10px 10px #e6e6e6;
+          box-shadow: 10px 10px 10px 10px #e6e6e6;
+  border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prologos {
+  height: 200px;
+  width: 150px;
 }
 
 .Contact {
@@ -1443,7 +1477,7 @@ section {
 }
 
 .c1 {
-  background-color: #f3f1f1;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1463,8 +1497,8 @@ section {
   color: #2f2e41;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 10px 10px 10px 10px #e6e6e6;
+          box-shadow: 10px 10px 10px 10px #e6e6e6;
   -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
   transition-property: -webkit-box-shadow, -webkit-transform;
   transition-property: box-shadow, transform;
@@ -1647,6 +1681,17 @@ section {
   .c1 {
     width: 140px;
     height: 150px;
+  }
+  .Projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .con {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
   }
   .logos {
     height: 70px;

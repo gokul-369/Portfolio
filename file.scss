@@ -70,7 +70,7 @@ nav {
   font-size: 20px;
   font-family: "Pacifico", cursive;
 }
-.logo a{
+.logo a {
   text-decoration: none;
 }
 .navcolorchange {
@@ -163,32 +163,53 @@ section {
   // background-color: yellowgreen;
 }
 .Projects {
-  background-color: indigo;
-
-  h1{
-    color: white;
+  // background-color: indigo;
+  display: flex;
+  justify-content: space-around;
+  
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: #2f2e41;
+    font-size: 15px;
   }
+}
+.con {
+  width: 300px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px 10px rgb(230, 230, 230);
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.prologos {
+height:200px;
+width:150px;
 }
 .Contact {
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  a{
+  a {
     text-decoration: none;
   }
 }
-.logos{
+.logos {
   height: 70px;
   width: 70px;
 }
-.labels{
+.labels {
   margin-top: 20px;
 }
 //combine all cs
 .c1 {
-  background-color: rgb(243, 241, 241);
-  display:flex;
+  // background-color: rgb(243, 241, 241);
+  background-color: white;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -197,12 +218,9 @@ section {
   border-radius: 20px;
   color: #2f2e41;
   transform: scale(1.1);
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-  // transform: translateZ(0);
-  // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 10px 10px 10px 10px rgb(230, 230, 230);
   transition-property: box-shadow, transform;
   transition-duration: 1s;
-  
 }
 // .c1:hover,.c1:active,.c1:focus {
 // }
@@ -342,24 +360,32 @@ section {
     margin-top: 7%;
     margin-left: 15px;
   }
-  .Contact{
+  .Contact {
     // align-items: center;
-   flex-direction: row;
-   flex-wrap:wrap;
-   justify-content:space-around;
-   width: 100%;
-   background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
   }
-  .c1{
+  .c1 {
     // margin-top: 30px;
     width: 140px;
     height: 150px;
   }
-  .logos{
+  .Projects{
+    flex-direction: column;
+  }
+  .con {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+  }
+  .logos {
     height: 70px;
     width: 70px;
   }
-  .labels{
+  .labels {
     margin-top: 20px;
   }
 }
