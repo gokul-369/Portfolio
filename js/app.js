@@ -7,6 +7,7 @@ const footer_input = document.querySelector(".footer-input");
 const hamburger_menu = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector("header nav");
 const links = document.querySelectorAll(".links a");
+const logo = document.querySelector("nav .logo");
 
 function closeMenu() {
   navbar.classList.remove("open");
@@ -44,6 +45,12 @@ window.addEventListener("scroll", () => {
   checkScroll(skills_wrap);
   skillsEffect();
   countUp();
+  if (window.scrollY >= 50) {
+    logo.classList.add("logo-hide");
+  }
+  else {
+    logo.classList.remove("logo-hide");
+  }
 });
 function checkScroll(el) {
   let rect = el.getBoundingClientRect();
