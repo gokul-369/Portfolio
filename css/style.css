@@ -22,9 +22,9 @@
   --dark-one: rgb(255, 255, 255);
   --dark-two: #fcfcfc;
   --main-color: #784cfb;
-  --light-one: #333333;
-  --light-two: #494949;
-  --light-three: #5f5f5f;
+  --light-one: #303052;
+  --light-two: #3b364e;
+  --light-three: #312b44;
 }
 
 /*regular styles */
@@ -703,7 +703,7 @@ header .points2 {
   margin: 1rem 0;
 }
 .skill-title {
-  color: rgb(150, 150, 150);
+  color:#b3b3b4;
   font-weight: 600;
   margin-bottom: 0.3rem;
 }
@@ -904,7 +904,7 @@ header .points2 {
   margin: 0.5rem 0 1.5rem 0;
   font-size: 1.2rem;
   line-height: 1.6;
-  color: rgb(150, 150, 150);
+  color: #b3b3b4;
 }
 .blog-card:hover {
   transform: translateY(-15px);
@@ -959,7 +959,7 @@ header .points2 {
 .review-text {
   font-size: 1.35rem;
   font-weight: 300;
-  color: rgb(150, 150, 150);
+  color: #b3b3b4;
   line-height: 1.7;
 }
 .review-info {
