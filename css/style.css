@@ -337,11 +337,11 @@ nav.open .hamburger-menu .bar {
 }
 nav.open .hamburger-menu .bar::before {
   transform: translateY(0) rotate(45deg);
-  background-color: var(--light-one);
+  background-color: #fff;
 }
 nav.open .hamburger-menu .bar::after {
   transform: translateY(0) rotate(-45deg);
-  background-color: var(--light-one);
+  background-color: #fff;
 }
 nav.open .links {
   transform: translateX(0);
@@ -1760,6 +1760,9 @@ header .points2 {
 
   .links a {
     color: var(--light-one);
+  }
+  .big-wrapper.dark .links a{
+    color:var(--dark-one);
   }
 
   .links a.active {
