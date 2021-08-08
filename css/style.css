@@ -186,7 +186,7 @@ img {
   display: inline-block;
   padding: 0.85rem 2rem;
   background-color: var(--main-color);
-  color: var(--light-one);
+  color: #fff;
   border-radius: 2rem;
   font-size: 1.05rem;
   font-weight: 500;
