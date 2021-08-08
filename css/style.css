@@ -259,7 +259,6 @@ color:var(--dark-one);
 }
 .toggle-btn:hover {
   background-color: var(--main-color);
-  color:#fff;
 }
 .logo {
   width: 80px;
@@ -293,7 +292,7 @@ color:var(--dark-one);
   color: var(--main-color);
 }
 .links a.active:hover {
-  color: var(--light-one);
+  color: #fff;
   background-color: #6b44e0;
 }
 
